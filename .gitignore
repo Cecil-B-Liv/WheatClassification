@@ -3,3 +3,4 @@ model/zip_data
 model/saved_model
 
 Checkpoint
+/model/.ipynb_checkpoints
