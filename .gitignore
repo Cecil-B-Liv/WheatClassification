@@ -1,12 +1,6 @@
 model/dataset/
 model/zip_data
 model/saved_model
-<<<<<<< Updated upstream
 
 Checkpoint
 /model/.ipynb_checkpoints
-=======
-*.v2
-*.csv
-*.csv
->>>>>>> Stashed changes
