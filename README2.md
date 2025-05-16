@@ -91,7 +91,7 @@ Ensure the backend is running on port **5000**.
 6. Replace the old URL with your **Ngrok Forwarding URL**, e.g.:
 
     ```javascript
-    fetch("https://abc123.ngrok.io/your-endpoint", {
+    fetch("{REPLACE_HERE}/endpoint", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
