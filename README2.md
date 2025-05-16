@@ -32,11 +32,15 @@ Install a specific version of NumPy:
 
     pip install numpy==1.26.4
 
-### 6. Install Jupyter Notebook
+### 6. Install Flask and Flask-CORS
+
+    pip install Flask flask-cors
+
+### 7. Install Jupyter Notebook
 
     conda install anaconda::jupyter
 
-### 7. Install charset-normalizer (from conda-forge)
+### 8. Install charset-normalizer (from conda-forge)
 
     conda install -c conda-forge charset-normalizer
 
