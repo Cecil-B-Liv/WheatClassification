@@ -1,0 +1,16 @@
+{
+    "image_2025-05-15_232519572.png": {
+        "resnet50": {
+            "label": "Surya",
+            "confidence": "96.74%"
+        },
+        "efficient_net": {
+            "label": "Surya",
+            "confidence": "96.41%"
+        },
+        "cnn": {
+            "label": "Surya",
+            "confidence": "70.81%"
+        }
+    }
+}

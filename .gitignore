@@ -5,3 +5,4 @@ model/saved_model
 Checkpoint
 /model/.ipynb_checkpoints
 /model/logs/train
+*.h5

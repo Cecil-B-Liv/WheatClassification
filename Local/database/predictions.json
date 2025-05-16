@@ -1,0 +1,16 @@
+{
+    "200768.jpg": {
+        "vgg": {
+            "label": "dead_heart",
+            "confidence": "99.76%"
+        },
+        "mobile_net": {
+            "label": "dead_heart",
+            "confidence": "44.73%"
+        },
+        "cnn": {
+            "label": "dead_heart",
+            "confidence": "93.38%"
+        }
+    }
+}
