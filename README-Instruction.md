@@ -2,9 +2,12 @@
 
 ## Step-by-Step Instructions
 
+### This will create the environment for both your web and local GUI application.
+
 ### 1. Create a New Conda Environment
 
-Create a new environment named `tf` with Python 3.10:
+Create a new environment named `tf` with Python 3.10: \
+Type this in Anaconda Prompt (You will need to download Anaconda first)
 
     conda create --name tf python=3.10
 
@@ -44,7 +47,10 @@ Install a specific version of NumPy:
 
     conda install -c conda-forge charset-normalizer
 
+
 # Integrating Backend with Frontend using Ngrok
+
+### This is how you deploy the API server
 
 ## Step 1: Download Ngrok
 
@@ -81,14 +87,16 @@ Navigate to your backend project directory and run:
 
 Ensure the backend is running on port **5000**.
 
-## 🔗 Step 6: Use Ngrok URL in Frontend
+(If you want to run this server as local application, you will just need to navigate to the 'Local\Server' and run the command from above)
+
+## Step 6: Use Ngrok URL in Frontend
 
 1. Go to: [https://milkysin.github.io/MachineLearningFrontend/](https://milkysin.github.io/MachineLearningFrontend/)
 2. Right-click and select **Inspect**
 3. Go to the **Sources** tab.
 4. Find and click on **`app.js`**
 5. Locate the `fetch` function that contains the backend URL.
-6. Replace the old URL with your **Ngrok Forwarding URL**, e.g.:
+6. Replace the old URL with your **Ngrok Forwarding URL** (from step 4), e.g.:
 
     ```javascript
     fetch("{REPLACE_HERE}/endpoint", {
