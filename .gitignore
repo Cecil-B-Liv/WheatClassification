@@ -6,3 +6,6 @@ Checkpoint
 /model/.ipynb_checkpoints
 /model/logs/train
 *.h5
+/MachineLearning_ImageClassification/test_images/test_images
+/MachineLearning_ImageClassification/train_images/train_images
+/train_images/train_images
